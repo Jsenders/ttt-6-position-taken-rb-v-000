@@ -6,7 +6,7 @@ def position_taken?(board, index)
     puts "false"
   elsif board[index] == "nil"
     puts "false"
-  elsif board[index] == "X" || "O"
+  elsif board[index] == "X" || board[index] == "O"
     puts "true"
   end
 end
