@@ -4,8 +4,8 @@ def position_taken?(board, index = "nil")
     puts "false"
   else index == ("")
     puts "false"
-  elsif index == "nil"
+  elsif index == ("nil")
     puts "false"
-  elsif index == "X" || "O"
+  elsif index == ("X") || ("O")
     puts "true"
 end
